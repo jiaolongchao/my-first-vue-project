@@ -13,10 +13,10 @@
     </style>
     <meta charset="UTF-8">
     <title>推荐</title>
-    <script src="https://content.0606.com.cn/web/js/polyfill.min.js"></script>
-    <script>!function (e, t) { function i() { var t = r.getBoundingClientRect().width; t / d > 320 && (t = 320 * d); var i = 100 * t / 640; t || (i = 50), window.baseFontSize_haina = c ? i : 2 * i, r.style.fontSize = i + "px", s.rem = e.rem = i } window["haina-version"] = "v2.4.9", window.webviewHistory = {}; var a, n = e.document, r = n.documentElement, o = n.querySelector('meta[name="viewport"]'), l = n.querySelector('meta[name="flexible"]'), d = 0, m = 0, s = t.flexible || (t.flexible = {}), c = (e.navigator.appVersion.match(/android/gi), e.navigator.appVersion.match(/iphone/gi)); if (o) { console.warn("将根据已有的meta标签来设置缩放比例"); var p = o.getAttribute("content").match(/initial\-scale=([\d\.]+)/); p && (m = parseFloat(p[1]), d = parseInt(1 / m)) } else if (l) { var u = l.getAttribute("content"); if (u) { var f = u.match(/initial\-dpr=([\d\.]+)/), w = u.match(/maximum\-dpr=([\d\.]+)/); f && (d = parseFloat(f[1]), m = parseFloat((1 / d).toFixed(2))), w && (d = parseFloat(w[1]), m = parseFloat((1 / d).toFixed(2))) } } if (!d && !m) { var v = e.devicePixelRatio; m = 1 / (d = c && !window.navigator.userAgent.match(/OS 9_3/) ? v >= 3 && (!d || d >= 3) ? 2 : v >= 2 && (!d || d >= 2) ? 2 : 1 : 1) } if (r.setAttribute("data-dpr", d), !o) if ((o = n.createElement("meta")).setAttribute("name", "viewport"), o.setAttribute("content", "initial-scale=" + m + ", maximum-scale=" + m + ", minimum-scale=" + m + ", user-scalable=no"), r.firstElementChild) r.firstElementChild.appendChild(o); else { var h = n.createElement("div"); h.appendChild(o), n.write(h.innerHTML) } e.addEventListener("resize", function () { clearTimeout(a), a = setTimeout(i, 300) }, !1), e.addEventListener("pageshow", function (e) { e.persisted && (clearTimeout(a), a = setTimeout(i, 300), c && window.location.reload()) }, !1), "complete" === n.readyState ? n.body.style.fontSize = 12 * d + "px" : n.addEventListener("DOMContentLoaded", function (e) { n.body.style.fontSize = 12 * d + "px" }, !1), i(), s.dpr = e.dpr = d, s.refreshRem = i, s.rem2px = function (e) { var t = parseFloat(e) * this.rem; return "string" == typeof e && e.match(/rem$/) && (t += "px"), t }, s.px2rem = function (e) { var t = parseFloat(e) / this.rem; return "string" == typeof e && e.match(/px$/) && (t += "rem"), t } }(window, window.lib || (window.lib = {}))</script>
-    <meta name="viewport" content="initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no">
-    <script src="https://content.0606.com.cn/web/js/vconsole.min.js"></script>
+    <script src="http://mobile.9086.cn/web/js/polyfill.min.js"></script>
+    <script>!function (e, t) { function i() { var t = r.getBoundingClientRect().width; t / d > 320 && (t = 320 * d); var i = 100 * t / 640; t || (i = 50), window.baseFontSize_haina = c ? i : 2 * i, r.style.fontSize = i + "px", s.rem = e.rem = i } window["haina-version"] = "v2.4.9", window.webviewHistory = {}; var a, n = e.document, r = n.documentElement, o = n.querySelector('meta[name="viewport"]'), l = n.querySelector('meta[name="flexible"]'), d = 0, m = 0, s = t.flexible || (t.flexible = {}), c = (e.navigator.appVersion.match(/android/gi), e.navigator.appVersion.match(/iphone/gi)); if (o) { console.warn("将根据已有的meta标签来设置缩放比例"); var p = o.getAttribute("mobile").match(/initial\-scale=([\d\.]+)/); p && (m = parseFloat(p[1]), d = parseInt(1 / m)) } else if (l) { var u = l.getAttribute("mobile"); if (u) { var f = u.match(/initial\-dpr=([\d\.]+)/), w = u.match(/maximum\-dpr=([\d\.]+)/); f && (d = parseFloat(f[1]), m = parseFloat((1 / d).toFixed(2))), w && (d = parseFloat(w[1]), m = parseFloat((1 / d).toFixed(2))) } } if (!d && !m) { var v = e.devicePixelRatio; m = 1 / (d = c && !window.navigator.userAgent.match(/OS 9_3/) ? v >= 3 && (!d || d >= 3) ? 2 : v >= 2 && (!d || d >= 2) ? 2 : 1 : 1) } if (r.setAttribute("data-dpr", d), !o) if ((o = n.createElement("meta")).setAttribute("name", "viewport"), o.setAttribute("mobile", "initial-scale=" + m + ", maximum-scale=" + m + ", minimum-scale=" + m + ", user-scalable=no"), r.firstElementChild) r.firstElementChild.appendChild(o); else { var h = n.createElement("div"); h.appendChild(o), n.write(h.innerHTML) } e.addEventListener("resize", function () { clearTimeout(a), a = setTimeout(i, 300) }, !1), e.addEventListener("pageshow", function (e) { e.persisted && (clearTimeout(a), a = setTimeout(i, 300), c && window.location.reload()) }, !1), "complete" === n.readyState ? n.body.style.fontSize = 12 * d + "px" : n.addEventListener("DOMContentLoaded", function (e) { n.body.style.fontSize = 12 * d + "px" }, !1), i(), s.dpr = e.dpr = d, s.refreshRem = i, s.rem2px = function (e) { var t = parseFloat(e) * this.rem; return "string" == typeof e && e.match(/rem$/) && (t += "px"), t }, s.px2rem = function (e) { var t = parseFloat(e) / this.rem; return "string" == typeof e && e.match(/px$/) && (t += "rem"), t } }(window, window.lib || (window.lib = {}))</script>
+    <meta name="viewport" mobile="initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no">
+    <script src="http://mobile.9086.cn/web/js/vconsole.min.js"></script>
     <style type="text/css">
         #__vconsole {
             color: #000;
@@ -669,7 +669,7 @@
             width: 100%;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-mobile: center;
             background-color: #fff;
             position: fixed;
             top: 0;
@@ -689,12 +689,12 @@
             text-align: center;
         }
     </style>
-    <link href="https://content.0606.com.cn/m/assets/css/main.73aa676739a633820c41f5f69feb3a10.css" rel="stylesheet">
+    <link href="http://mobile.9086.cn/m/assets/css/main.4c4c15862992b9b1c4cd7ebb7ae49083.css" rel="stylesheet">
     <style type="text/css">
         .video-js .vjs-big-play-button .vjs-icon-placeholder:before,
         .vjs-button>.vjs-icon-placeholder:before,
         .video-js .vjs-modal-dialog,
-        .vjs-modal-dialog .vjs-modal-dialog-content {
+        .vjs-modal-dialog .vjs-modal-dialog-mobile {
             position: absolute;
             top: 0;
             left: 0;
@@ -730,7 +730,7 @@
         .vjs-icon-play:before,
         .video-js .vjs-big-play-button .vjs-icon-placeholder:before,
         .video-js .vjs-play-control .vjs-icon-placeholder:before {
-            content: "\F101";
+            mobile: "\F101";
         }
 
         .vjs-icon-play-circle {
@@ -740,7 +740,7 @@
         }
 
         .vjs-icon-play-circle:before {
-            content: "\F102";
+            mobile: "\F102";
         }
 
         .vjs-icon-pause,
@@ -752,7 +752,7 @@
 
         .vjs-icon-pause:before,
         .video-js .vjs-play-control.vjs-playing .vjs-icon-placeholder:before {
-            content: "\F103";
+            mobile: "\F103";
         }
 
         .vjs-icon-volume-mute,
@@ -764,7 +764,7 @@
 
         .vjs-icon-volume-mute:before,
         .video-js .vjs-mute-control.vjs-vol-0 .vjs-icon-placeholder:before {
-            content: "\F104";
+            mobile: "\F104";
         }
 
         .vjs-icon-volume-low,
@@ -776,7 +776,7 @@
 
         .vjs-icon-volume-low:before,
         .video-js .vjs-mute-control.vjs-vol-1 .vjs-icon-placeholder:before {
-            content: "\F105";
+            mobile: "\F105";
         }
 
         .vjs-icon-volume-mid,
@@ -788,7 +788,7 @@
 
         .vjs-icon-volume-mid:before,
         .video-js .vjs-mute-control.vjs-vol-2 .vjs-icon-placeholder:before {
-            content: "\F106";
+            mobile: "\F106";
         }
 
         .vjs-icon-volume-high,
@@ -800,7 +800,7 @@
 
         .vjs-icon-volume-high:before,
         .video-js .vjs-mute-control .vjs-icon-placeholder:before {
-            content: "\F107";
+            mobile: "\F107";
         }
 
         .vjs-icon-fullscreen-enter,
@@ -812,7 +812,7 @@
 
         .vjs-icon-fullscreen-enter:before,
         .video-js .vjs-fullscreen-control .vjs-icon-placeholder:before {
-            content: "\F108";
+            mobile: "\F108";
         }
 
         .vjs-icon-fullscreen-exit,
@@ -824,7 +824,7 @@
 
         .vjs-icon-fullscreen-exit:before,
         .video-js.vjs-fullscreen .vjs-fullscreen-control .vjs-icon-placeholder:before {
-            content: "\F109";
+            mobile: "\F109";
         }
 
         .vjs-icon-square {
@@ -834,7 +834,7 @@
         }
 
         .vjs-icon-square:before {
-            content: "\F10A";
+            mobile: "\F10A";
         }
 
         .vjs-icon-spinner {
@@ -844,7 +844,7 @@
         }
 
         .vjs-icon-spinner:before {
-            content: "\F10B";
+            mobile: "\F10B";
         }
 
         .vjs-icon-subtitles,
@@ -866,7 +866,7 @@
         .video-js.video-js:lang(en-IE) .vjs-subs-caps-button .vjs-icon-placeholder:before,
         .video-js.video-js:lang(en-AU) .vjs-subs-caps-button .vjs-icon-placeholder:before,
         .video-js.video-js:lang(en-NZ) .vjs-subs-caps-button .vjs-icon-placeholder:before {
-            content: "\F10C";
+            mobile: "\F10C";
         }
 
         .vjs-icon-captions,
@@ -882,7 +882,7 @@
         .video-js .vjs-captions-button .vjs-icon-placeholder:before,
         .video-js:lang(en) .vjs-subs-caps-button .vjs-icon-placeholder:before,
         .video-js:lang(fr-CA) .vjs-subs-caps-button .vjs-icon-placeholder:before {
-            content: "\F10D";
+            mobile: "\F10D";
         }
 
         .vjs-icon-chapters,
@@ -894,7 +894,7 @@
 
         .vjs-icon-chapters:before,
         .video-js .vjs-chapters-button .vjs-icon-placeholder:before {
-            content: "\F10E";
+            mobile: "\F10E";
         }
 
         .vjs-icon-share {
@@ -904,7 +904,7 @@
         }
 
         .vjs-icon-share:before {
-            content: "\F10F";
+            mobile: "\F10F";
         }
 
         .vjs-icon-cog {
@@ -914,7 +914,7 @@
         }
 
         .vjs-icon-cog:before {
-            content: "\F110";
+            mobile: "\F110";
         }
 
         .vjs-icon-circle,
@@ -928,7 +928,7 @@
         .vjs-icon-circle:before,
         .video-js .vjs-play-progress:before,
         .video-js .vjs-volume-level:before {
-            content: "\F111";
+            mobile: "\F111";
         }
 
         .vjs-icon-circle-outline {
@@ -938,7 +938,7 @@
         }
 
         .vjs-icon-circle-outline:before {
-            content: "\F112";
+            mobile: "\F112";
         }
 
         .vjs-icon-circle-inner-circle {
@@ -948,7 +948,7 @@
         }
 
         .vjs-icon-circle-inner-circle:before {
-            content: "\F113";
+            mobile: "\F113";
         }
 
         .vjs-icon-hd {
@@ -958,7 +958,7 @@
         }
 
         .vjs-icon-hd:before {
-            content: "\F114";
+            mobile: "\F114";
         }
 
         .vjs-icon-cancel,
@@ -970,7 +970,7 @@
 
         .vjs-icon-cancel:before,
         .video-js .vjs-control.vjs-close-button .vjs-icon-placeholder:before {
-            content: "\F115";
+            mobile: "\F115";
         }
 
         .vjs-icon-replay,
@@ -982,7 +982,7 @@
 
         .vjs-icon-replay:before,
         .video-js .vjs-play-control.vjs-ended .vjs-icon-placeholder:before {
-            content: "\F116";
+            mobile: "\F116";
         }
 
         .vjs-icon-facebook {
@@ -992,7 +992,7 @@
         }
 
         .vjs-icon-facebook:before {
-            content: "\F117";
+            mobile: "\F117";
         }
 
         .vjs-icon-gplus {
@@ -1002,7 +1002,7 @@
         }
 
         .vjs-icon-gplus:before {
-            content: "\F118";
+            mobile: "\F118";
         }
 
         .vjs-icon-linkedin {
@@ -1012,7 +1012,7 @@
         }
 
         .vjs-icon-linkedin:before {
-            content: "\F119";
+            mobile: "\F119";
         }
 
         .vjs-icon-twitter {
@@ -1022,7 +1022,7 @@
         }
 
         .vjs-icon-twitter:before {
-            content: "\F11A";
+            mobile: "\F11A";
         }
 
         .vjs-icon-tumblr {
@@ -1032,7 +1032,7 @@
         }
 
         .vjs-icon-tumblr:before {
-            content: "\F11B";
+            mobile: "\F11B";
         }
 
         .vjs-icon-pinterest {
@@ -1042,7 +1042,7 @@
         }
 
         .vjs-icon-pinterest:before {
-            content: "\F11C";
+            mobile: "\F11C";
         }
 
         .vjs-icon-audio-description,
@@ -1054,7 +1054,7 @@
 
         .vjs-icon-audio-description:before,
         .video-js .vjs-descriptions-button .vjs-icon-placeholder:before {
-            content: "\F11D";
+            mobile: "\F11D";
         }
 
         .vjs-icon-audio,
@@ -1066,7 +1066,7 @@
 
         .vjs-icon-audio:before,
         .video-js .vjs-audio-button .vjs-icon-placeholder:before {
-            content: "\F11E";
+            mobile: "\F11E";
         }
 
         .video-js {
@@ -1300,14 +1300,14 @@
             background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
             background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
             overflow: auto;
-            box-sizing: content-box;
+            box-sizing: mobile-box;
         }
 
         .video-js .vjs-modal-dialog>* {
             box-sizing: border-box;
         }
 
-        .vjs-modal-dialog .vjs-modal-dialog-content {
+        .vjs-modal-dialog .vjs-modal-dialog-mobile {
             font-size: 1.2em;
             line-height: 1.5;
             padding: 20px 24px;
@@ -1326,16 +1326,16 @@
             display: none;
         }
 
-        .vjs-menu .vjs-menu-content {
+        .vjs-menu .vjs-menu-mobile {
             display: block;
             padding: 0;
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
             overflow: auto;
-            box-sizing: content-box;
+            box-sizing: mobile-box;
         }
 
-        .vjs-menu .vjs-menu-content>* {
+        .vjs-menu .vjs-menu-mobile>* {
             box-sizing: border-box;
         }
 
@@ -1388,7 +1388,7 @@
             border-top-color: rgba(43, 51, 63, 0.7);
         }
 
-        .vjs-menu-button-popup .vjs-menu .vjs-menu-content {
+        .vjs-menu-button-popup .vjs-menu .vjs-menu-mobile {
             background-color: #2B333F;
             background-color: rgba(43, 51, 63, 0.7);
             position: absolute;
@@ -1458,7 +1458,7 @@
             width: auto;
         }
 
-        .vjs-menu-button-inline .vjs-menu-content {
+        .vjs-menu-button-inline .vjs-menu-mobile {
             width: auto;
             height: 100%;
             margin: 0;
@@ -2169,14 +2169,14 @@
             left: 0em;
         }
 
-        .vjs-error .vjs-error-display .vjs-modal-dialog-content {
+        .vjs-error .vjs-error-display .vjs-modal-dialog-mobile {
             font-size: 1.4em;
             text-align: center;
         }
 
         .vjs-error .vjs-error-display:before {
             color: #fff;
-            content: 'X';
+            mobile: 'X';
             font-family: Arial, Helvetica, sans-serif;
             font-size: 4em;
             left: 0;
@@ -2213,7 +2213,7 @@
 
         .vjs-loading-spinner:before,
         .vjs-loading-spinner:after {
-            content: "";
+            mobile: "";
             position: absolute;
             margin: -6px;
             box-sizing: inherit;
@@ -2304,7 +2304,7 @@
 
         .video-js .vjs-subs-caps-button+.vjs-menu .vjs-captions-menu-item .vjs-menu-item-text .vjs-icon-placeholder:before {
             font-family: VideoJS;
-            content: "\F10D";
+            mobile: "\F10D";
             font-size: 1.5em;
             line-height: inherit;
         }
@@ -2373,7 +2373,7 @@
             height: 70%;
         }
 
-        .vjs-text-track-settings .vjs-modal-dialog-content {
+        .vjs-text-track-settings .vjs-modal-dialog-mobile {
             display: table;
         }
 
@@ -2448,7 +2448,7 @@
 
         @media \0screen {
             .vjs-user-inactive.vjs-playing .vjs-control-bar :before {
-                content: "";
+                mobile: "";
             }
         }
 
@@ -2475,9 +2475,9 @@
                 <article class="articleWrap" id="articleWrap">
                     <div class="RichContent RichContent--unescapable">
                         <div class="RichContent-inner">
-                            <p class="conText RichText CopyrightRichText-richText "></p>
-                            <p>据中证投资报道，日前，台湾被动元件龙头国巨决定继续对价格进行相应调整，并且超过1年交期的将停止接单。据分析，包括电容器、电阻器、存储器和某些分立器件在内的许多元件交期仍在延长，MLCC缺货最为严重。西部地区遭遇台风侵袭之后，日本北海道又突发强地震，从而导致北海道全境停电，当地企业曾一度陷入停工状态。电子制造业密集地区一旦发生灾情，必定会引发电子元器件大缺货，市场价格也会随之高涨。关注风华高科(行情000636,诊股)、国瓷材料(行情300285,诊股)。</p>
-                            <p></p>
+                            <p class="conText RichText CopyrightRichText-richText ">
+                                <p>据中证投资报道，日前，台湾被动元件龙头国巨决定继续对价格进行相应调整，并且超过1年交期的将停止接单。据分析，包括电容器、电阻器、存储器和某些分立器件在内的许多元件交期仍在延长，MLCC缺货最为严重。西部地区遭遇台风侵袭之后，日本北海道又突发强地震，从而导致北海道全境停电，当地企业曾一度陷入停工状态。电子制造业密集地区一旦发生灾情，必定会引发电子元器件大缺货，市场价格也会随之高涨。关注风华高科(行情000636,诊股)、国瓷材料(行情300285,诊股)。</p>
+                            </p>
                         </div>
                     </div>
                 </article>
@@ -2501,10 +2501,10 @@
                                             <span class="title">风华高科
                                                 <i>(000636)</i>
                                             </span>
-                                            <span class="price">股价:12.68</span>
+                                            <span class="price">股价:12.64</span>
                                         </div>
                                         <div class="stockInfoCenter">
-                                            <span class="ratioUP">+2.34%</span>
+                                            <span class="ratioUP">+2.02%</span>
                                         </div>
                                         <div class="stockInfoRight">
                                             <span class="addInput" data-eventid="XW_Detail_XGGG_JZX_Click" data-parameter="newsId:49608058,stockId:200000636">加自选</span>
@@ -2515,10 +2515,10 @@
                                             <span class="title">国瓷材料
                                                 <i>(300285)</i>
                                             </span>
-                                            <span class="price">股价:16.86</span>
+                                            <span class="price">股价:16.78</span>
                                         </div>
                                         <div class="stockInfoCenter">
-                                            <span class="ratioUP">+2.12%</span>
+                                            <span class="ratioUP">+1.64%</span>
                                         </div>
                                         <div class="stockInfoRight">
                                             <span class="addInput" data-eventid="XW_Detail_XGGG_JZX_Click" data-parameter="newsId:49608058,stockId:200300285">加自选</span>
@@ -2532,16 +2532,16 @@
             </div>
         </div>
     </div>
-    <script src="https://content.0606.com.cn/m/assets/js/hntrack_1.0.4.js" crossorigin="anonymous"></script>
-    <script>!function () { window.HNtrack = new HNtrack; var e = window.navigator.userAgent.toLowerCase(); if (e.indexOf("micromessenger") > -1) { var t = document.createElement("script"); t.type = "text/javascript", t.src = "https://res.wx.qq.com/open/js/jweixin-1.2.0.js", t.async = !0, document.body.appendChild(t) } else if (e.match(/QQ/gi)) { var n = document.createElement("script"); n.type = "text/javascript", n.src = "https://qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js", n.async = !0, document.body.appendChild(n) } }()</script>
-    <script type="text/javascript" src="https://content.0606.com.cn/m/assets/js/manifest.41d99387b2a131bc0171.js"></script>
-    <script type="text/javascript" src="https://content.0606.com.cn/m/assets/js/vendor.a3409f843911444d8204.js"></script>
-    <script type="text/javascript" src="https://content.0606.com.cn/m/assets/js/main.3490117f54f20fbb70b7.js"></script>
+    <script src="http://mobile.9086.cn/m/assets/js/hntrack_1.0.4.js" crossorigin="anonymous"></script>
+    <script>!function () { window.HNtrack = new HNtrack; var e = window.navigator.userAgent.toLowerCase(); if (e.indexOf("micromessenger") > -1) { var t = document.createElement("script"); t.type = "text/javascript", t.src = "http://res.wx.qq.com/open/js/jweixin-1.2.0.js", t.async = !0, document.body.appendChild(t) } else if (e.match(/QQ/gi)) { var n = document.createElement("script"); n.type = "text/javascript", n.src = "http://qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js", n.async = !0, document.body.appendChild(n) } }()</script>
+    <script type="text/javascript" src="http://mobile.9086.cn/m/assets/js/manifest.2e3341afd59f7363ea35.js"></script>
+    <script type="text/javascript" src="http://mobile.9086.cn/m/assets/js/vendor.a3409f843911444d8204.js"></script>
+    <script type="text/javascript" src="http://mobile.9086.cn/m/assets/js/main.47bb04dca12facf604f3.js"></script>
     <div id="loading-wrap"></div>
-    <div id="haina-track-downloadApp" style="position: fixed; display: flex; justify-content: flex-end; align-items: center; left: 0px; right: 0px; bottom: 0px; width: 100%; height: 120px; z-index: 99; background-image: url(&quot;https://content.0606.com.cn/m/assets/img/pic_bg.png&quot;); background-size: 100% 100%;">
-        <a class="haina-track-download" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; color: rgb(255, 255, 255);"></a>
-        <div id="haina-track-downclose" style="width: 64px; height: 64px; background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAVUExURf///0xpcf///////////////////ybWoNgAAAAHdFJOUx8A0g9czVgR5p0BAAABIklEQVRIx5WWTQ6CMBCFnym61nCDRvclXIBwAuPCtRvvfwX7RzqFaV+chGCcL483pZ0BNxHjDB/zJP+DSDvkMCowQsR0BKq8IKDnC7EBOEQNuCNgJDBCiUkATgNMAVSBLIGmQJZAWyBJoC2QJKCugVgLf13bwCkCrg2YCAC9Z6BdQ6oDPQvBBHoWggl0LXgTEvgu6T68JVA8Xl739GN9fIpLFI9na6PEYO2zuBSAT0SJNYMZEEWkzMblMiSQUpVADcRcLeABGSFZC+zDZ2uBfQwBWHoru/YFOEAfwUyqZdKF+mep9ZdFXzfdMHTL0U3Ltz09OPTo0cNLjz9vILQF0SbG2yBtpLQV82ZOxwEfKHQk8aHGxyIdrHw0S6f6cG98HvwAODk7pTzy15gAAAAASUVORK5CYII=&quot;) 0% 0% / 100% no-repeat rgb(76, 62, 54); margin-right: 4%; border-radius: 50%; z-index: 100;"></div>
-    </div>
 </body>
+<div id="haina-track-downloadApp" style="position: fixed; display: flex; align-items: center; left: 0px; right: 0px; bottom: 0px; width: 100%; height: 120px; z-index: 99; background-image: url(&quot;http://mobile.9086.cn/m/assets/img/pic_bg.png&quot;); background-size: 100% 100%;">
+    <a class="haina-track-download" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; color: rgb(255, 255, 255);"></a>
+    <div id="haina-track-downclose" style="width: 64px; height: 64px; background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAVUExURf///0xpcf///////////////////ybWoNgAAAAHdFJOUx8A0g9czVgR5p0BAAABIklEQVRIx5WWTQ6CMBCFnym61nCDRvclXIBwAuPCtRvvfwX7RzqFaV+chGCcL483pZ0BNxHjDB/zJP+DSDvkMCowQsR0BKq8IKDnC7EBOEQNuCNgJDBCiUkATgNMAVSBLIGmQJZAWyBJoC2QJKCugVgLf13bwCkCrg2YCAC9Z6BdQ6oDPQvBBHoWggl0LXgTEvgu6T68JVA8Xl739GN9fIpLFI9na6PEYO2zuBSAT0SJNYMZEEWkzMblMiSQUpVADcRcLeABGSFZC+zDZ2uBfQwBWHoru/YFOEAfwUyqZdKF+mep9ZdFXzfdMHTL0U3Ltz09OPTo0cNLjz9vILQF0SbG2yBtpLQV82ZOxwEfKHQk8aHGxyIdrHw0S6f6cG98HvwAODk7pTzy15gAAAAASUVORK5CYII=&quot;) 0% 0% / 100% no-repeat rgb(76, 62, 54); margin-right: 4%; border-radius: 50%; z-index: 100;"></div>
+</div>
 
 </html>
